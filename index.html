@@ -44,9 +44,45 @@
         text-decoration: none;
     }
         body {
-  font-family: "OCR A Std, monospace";
+            font-family: 'Grenda', sans-serif;
+                                                
+
 }
+ul {
+            border-left: 5px solid rgb(188, 32, 32);
+            background-color: #ffffff;
+            list-style-type: none;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        ul li a {
+            color: srgb(221, 210, 210);
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        ul li a:hover {
+            background-color: #c42b2b; 
+        }
+
+        ul li.active a {
+            background-color: #dd1d1d; 
+        }
        </style>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/grenda');
+</style>
+s
+
+
     </head>
     <body>
         <div class="container-fluid">
@@ -55,20 +91,21 @@
                    <div class="col">
                       <H1 class="rounded-5 p-2 m-1 text-center">Politiskie režīmi</H1>
                      <ul class=" p-3">
-                      <a href="#kasIr"><li>Kas ir politiskais režīms</li></a>
-                      <a href="#rezimi"><li>Režīmi</li></a>
-                      <a href="#varassadalijums"><li>Varas sadalījums</li></a>
-                     <a href="#politiska"><li>Politiskā vara</li></a>
-                     <a href="#veidss"><li>Varas iegūšanas veids</li></a>
-                      <a href="#velesanas"><li>Kādas ir vēlēšanas?(Vēlēšanu sistēma)</li></a>
-                     <a href="#atbildiba"><li>Varas institūciju atbildība</li></a>
-                     <a href="#veids2"><li>Politisko lēmumu pieņemšanas veids</li></a>
-                     <a href="#attiecibas"><li>Attiecības starp varu un sabiedrību</li></a>
-                     <a href="#info"><li>Informācijas pieejamība</li></a>
-                     <a href="#kults"><li>Vadonības kults</li></a>
-                     <a href="#terors"><li>Terors</li></a>
-                     <a href="#puses"><li>Sistēmu stiprās un vājās puses</li></a>
-                     <li>Atsauces</li></a>
+                        
+                      <li class="navbar-li"><a href="#kasIr" class="action-button">Kas ir politiskais režīms</a></li>
+                      <li class="navbar-li"><a href="#rezimi" class="action-button">Režīmi</a></li>
+                      <li class="navbar-li"><a href="#varassadalijums" class="action-button">Varas sadalījums</a></li>
+                     <li class="navbar-li"><a href="#politiska" class="action-button">Politiskā vara</a></li>
+                     <li class="navbar-li"><a href="#veidss" class="action-button">Varas iegūšanas veids</a></li>
+                      <li class="navbar-li"><a href="#velesanas" class="action-button">Kādas ir vēlēšanas?(Vēlēšanu sistēma)</a></li>
+                     <li class="navbar-li"><a href="#atbildiba" class="action-button">Varas institūciju atbildība</a></li>
+                     <li class="navbar-li"><a href="#veids2" class="action-button">Politisko lēmumu pieņemšanas veids</a></li>
+                     <li class="navbar-li"><a href="#attiecibas" class="action-button">Attiecības starp varu un sabiedrību</a></li>
+                     <li class="navbar-li"><a href="#info" class="action-button">Informācijas pieejamība</a></li>
+                     <li class="navbar-li"><a href="#kults" class="action-button">adonības kults</a></li>
+                     <li class="navbar-li"><a href="#terors" class="action-button">Terors</a></li>
+                    <li class="navbar-li"> <a href="#puses" class="action-button">Sistēmu stiprās un vājās puses</a></li>
+                     
                      </ul>
                   </div>
                   <div class="col-9 overflow-auto h-100">
@@ -81,7 +118,8 @@
                      <p > Kopā ir 3 režīmi, demokrātiskais, autoritārais un totalitārais. </p>
                        <p> Latvija ir demokrātiska valsts, to garantē Latvijas Satversme. Pirmais pants nosaka, ka Latvija ir demokrātiska republika, 2.pants, ka vara pieder Latvijas tautai. Cilvēktiesību jautājumi aplūkoti Satversmes 8.nodaļā. Latvijā nav likuma, kas nosaka vispārējus iedzīvotāju pienākumus pret valsti, tiek uzskatīts, ka ikviena cilvēka pienākums ir ievērot likumus. Likumos ir norādīti atsevišķu sociālo un profesionālo grupu, arī amatpersonu pienākumi.</p>
                         <p> Autoritārisms ir politiskā sistēma, kurai raksturīga varas koncentrācija viena vadoņa rokās. Tai ir raksturīga antidemokrātiska valsts pārvaldes sistēma, kas izveidota, lai nodrošinātu iedzīvotāju bezierunu pakļaušanos vadonim un valsts varai. Vara tiek koncentrēta diktatora rokās, kurš kontrolē visas varas iestādes. Savu varu pār sabiedrību vadonis uztur ar karaspēka, drošības dienestu un paklausīga birokrātiskā aparāta palīdzību. Dažkārt autoritāras varas pretinieki tiek vajāti vai pat fiziski iznīcināti. Autoritārā valstī var notikt vēlēšanas, tomēr tās nav demokrātiskas. Uz galveno valsts amatu parasti kandidē pats diktators, lai viņa vara izskatītos likumīga. Latvijā autoritārisms bija pēc 1934.gada 15.maija apvērsuma, kad varu savās rokās sagrāba Kārlis Ulmanis ar uzticamām aizsargu vienībām. Autoritārisms Latvijā pastāvēja līdz Padomju okupācijai 1940.gada jūnijā.</p>
-                       <p> Totalitārisms ir politiskā sistēma, kurā valsti pārvalda bez sabiedrības līdzdalības, lēmumi totalitārismā tiek pieņemti bez saskaņošanas ar sabiedrības vairākumu; nozīmīgākās sociālās, ekonomiskās un politiskās darbības totalitārā režīmā kontrolē valsts. Tas ir diktatūras veids, kurā vara ierobežo cilvēku visās jomās. Diktatūras apstākļos vara pieder nelielam cilvēku lokam vai pat vienam cilvēkam.</p>
+                        <p class="text-center"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Karlis_Ulmanis.jpg" alt="KārliS Ulmanis" style="width: 300px; height: 350px;"></p>
+                        <p> Totalitārisms ir politiskā sistēma, kurā valsti pārvalda bez sabiedrības līdzdalības, lēmumi totalitārismā tiek pieņemti bez saskaņošanas ar sabiedrības vairākumu; nozīmīgākās sociālās, ekonomiskās un politiskās darbības totalitārā režīmā kontrolē valsts. Tas ir diktatūras veids, kurā vara ierobežo cilvēku visās jomās. Diktatūras apstākļos vara pieder nelielam cilvēku lokam vai pat vienam cilvēkam.</p>
                     </div>
                     <div id="varassadalijums" class="rounded-5 p-4 fons m-1">
                         <h2 class="p-2">Varas sadalījums</h4>
@@ -143,8 +181,8 @@
                            <b>Totalitārisms</b>-Ideoloģiskais terors, ziņošana par citiem
                        </div>
                        <div id="puses" class="rounded-5 p-4 fons m-1">
-                        <button class="rounded-5 p-3" onclick="vajas()">Sistēmas vājās puses</button>
-                        <button class="rounded-5 p-3" onclick="stipras()">Sistēmas stiprās puses</button>
+                        <button  type="button" class="btn btn-danger" class="rounded-5 p-3" onclick="vajas()">Sistēmas vājās puses</button>
+                        <button  type="button" class="btn btn-danger" class="rounded-5 p-3" onclick="stipras()">Sistēmas stiprās puses</button>
                         <br>
                         <div id="stipras" class="d-none">
                         <h2 class="p-2">Sistēmas stiprās puses</h2>
