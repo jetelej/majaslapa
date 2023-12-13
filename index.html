@@ -5,94 +5,80 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-
-   <script>
-     
-      function stipras(){
-        document.getElementById("stipras").classList.remove("d-none")
-        document.getElementById("vajas").classList.add("d-none")
-      }
-      function vajas() {
-        document.getElementById("vajas").classList.remove("d-none")
-        document.getElementById("stipras").classList.add("d-none")
-      }
-   </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <script>
+          function stipras(){
+           document.getElementById("stipras").classList.remove("d-none")
+           document.getElementById("vajas").classList.add("d-none")
+          }
+          function vajas() {
+           document.getElementById("vajas").classList.remove("d-none")
+           document.getElementById("stipras").classList.add("d-none")
+          }
+       </script>
        <style>
-        ul {
-  border-left: 5px solid rgb(188, 32, 32);
-  background-color: #f1f1f1;
-  list-style-type: none;
-  padding: 10px 20px;
-}
+           ul {
+          border-left: 5px solid rgb(188, 32, 32);
+          background-color: #f1f1f1;
+          list-style-type: none;
+          padding: 10px 20px;
+         }
 
-    body {
-       background-image: url(https://naudaslietas.lv/wp-content/uploads/2023/07/amir-arabshahi-erskz8orziq-unsplash-scaled.jpg);
-       background-size: cover;
-        }
-    H1,ul, h3, .fons {
-      background-color: rgb(255, 255, 255);
-        }
-    ::-webkit-scrollbar {
-        display: none;
-        }
-    *{
-        -ms-overflow-style: none; 
-        scrollbar-width: none;  
-        }
-    a  {
-        color: black;
-        text-decoration: none;
-    }
-        body {
+          body {
+           background-image: url(https://naudaslietas.lv/wp-content/uploads/2023/07/amir-arabshahi-erskz8orziq-unsplash-scaled.jpg);
+           background-size: cover;
+         }
+          H1,ul, h3, .fons {
+           background-color: rgb(255, 255, 255);
+         }
+          ::-webkit-scrollbar {
+           display: none;
+         }
+         *{
+          -ms-overflow-style: none; 
+          scrollbar-width: none;  
+          }
+         a  {
+           color: black;
+           text-decoration: none;
+         }
+         body {
             font-family: 'Grenda', sans-serif;
-                                                
-
-}
-
-ul {
+         }
+         ul {
             border-left: 5px solid rgb(188, 32, 32);
             background-color: #ffffff;
             list-style-type: none;
             padding: 10px 20px;
             display: flex;
             flex-direction: column;
-        }
-
-        ul li {
+         }
+         ul li {
             margin-bottom: 5px;
-        }
-
-        ul li a {
+         }
+         ul li a {
             color: rgb(0, 0, 0);
             text-decoration: none;
             padding: 8px 15px;
             border-radius: 5px;
             transition: background-color 0.3s ease;
-        }
-
-        ul li a:hover {
+         }
+         ul li a:hover {
             background-color: #c42b2b; 
-        }
-
-        ul li.active a {
+         }
+         ul li.active a {
             background-color: #c42b2b; 
-        }
-       
-      .apaksa{
-        position: fixed;
-        bottom: 5px;
-        background-color: #c42b2b
-        
-      }
+         }
+         .apaksa{
+          position: fixed;
+          bottom: 5px;
+          background-color: #c42b2b  
+         }
        </style>
-<style>
-    @import url('https://fonts.cdnfonts.com/css/grenda');
-</style>
-
-
-
+       <style>
+          @import url('https://fonts.cdnfonts.com/css/grenda');
+      </style>
     </head>
     <body>
         <div class="container-fluid">
@@ -100,129 +86,114 @@ ul {
              <div class="row vh-100">
                    <div class="col">
                       <H1 class="rounded-5 p-2 m-1 text-center">Politiskie režīmi</H1>
-                     <ul class=" p-3">
-                        
-                      <li class="navbar-li"><a href="#kasIr" class="action-button">Kas ir politiskais režīms</a></li>
-                      <li class="navbar-li"><a href="#rezimi" class="action-button">Režīmi</a></li>
-                      <li class="navbar-li"><a href="#varassadalijums" class="action-button">Varas sadalījums</a></li>
-                     <li class="navbar-li"><a href="#politiska" class="action-button">Politiskā vara</a></li>
-                     <li class="navbar-li"><a href="#veidss" class="action-button">Varas iegūšanas veids</a></li>
-                      <li class="navbar-li"><a href="#velesanas" class="action-button">Kādas ir vēlēšanas?(Vēlēšanu sistēma)</a></li>
-                     <li class="navbar-li"><a href="#atbildiba" class="action-button">Varas institūciju atbildība</a></li>
-                     <li class="navbar-li"><a href="#veids2" class="action-button">Politisko lēmumu pieņemšanas veids</a></li>
-                     <li class="navbar-li"><a href="#attiecibas" class="action-button">Attiecības starp varu un sabiedrību</a></li>
-                     <li class="navbar-li"><a href="#info" class="action-button">Informācijas pieejamība</a></li>
-                     <li class="navbar-li"><a href="#kults" class="action-button">Vadonības kults</a></li>
-                     <li class="navbar-li"><a href="#terors" class="action-button">Terors</a></li>
-                    <li class="navbar-li"> <a href="#puses" class="action-button">Sistēmu stiprās un vājās puses</a></li>
-                    
-                
-                     </ul>
-                     <a id="saite" class="apaksa rounded-5 p-3 m-9" href="http://www.rag.lv/">Uz skolas mājaslapu</a>
-
+                      <ul class=" p-3">                       
+                         <li class="navbar-li"><a href="#kasIr" class="action-button">Kas ir politiskais režīms</a></li>
+                         <li class="navbar-li"><a href="#rezimi" class="action-button">Režīmi</a></li>
+                         <li class="navbar-li"><a href="#varassadalijums" class="action-button">Varas sadalījums</a></li>
+                         <li class="navbar-li"><a href="#politiska" class="action-button">Politiskā vara</a></li>
+                         <li class="navbar-li"><a href="#veidss" class="action-button">Varas iegūšanas veids</a></li>
+                         <li class="navbar-li"><a href="#velesanas" class="action-button">Kādas ir vēlēšanas?(Vēlēšanu sistēma)</a></li>
+                         <li class="navbar-li"><a href="#atbildiba" class="action-button">Varas institūciju atbildība</a></li>
+                         <li class="navbar-li"><a href="#veids2" class="action-button">Politisko lēmumu pieņemšanas veids</a></li>
+                         <li class="navbar-li"><a href="#attiecibas" class="action-button">Attiecības starp varu un sabiedrību</a></li>
+                         <li class="navbar-li"><a href="#info" class="action-button">Informācijas pieejamība</a></li>
+                         <li class="navbar-li"><a href="#kults" class="action-button">Vadonības kults</a></li>
+                         <li class="navbar-li"><a href="#terors" class="action-button">Terors</a></li>
+                         <li class="navbar-li"> <a href="#puses" class="action-button">Sistēmu stiprās un vājās puses</a></li>                                    
+                      </ul>
+                      <a id="saite" class="apaksa rounded-5 p-3 m-9" href="http://www.rag.lv/">Uz skolas mājaslapu</a>
                   </div>
                   <div class="col-9 overflow-auto h-100">
                     <div id="kasIr" class="rounded-5 p-3 fons m-1">
-                     <h2  class = "text-center" >Kas ir politiskais režīms?</h2>
-                     <p >Politikā režīms ir valdības forma vai noteikumu kopums, kultūras vai sociālās normas utt., kas regulē valdības vai institūcijas darbību un tās mijiedarbību ar sabiedrību. Trīs plašās režīmu kategorijas, kas parādās lielākajā daļā literatūras, ir demokrātiskais un autoritārais un totalitārais.</p>
+                      <h2  class = "text-center" >Kas ir politiskais režīms?</h2>
+                      <p >Politikā režīms ir valdības forma vai noteikumu kopums, kultūras vai sociālās normas utt., kas regulē valdības vai institūcijas darbību un tās mijiedarbību ar sabiedrību. Trīs plašās režīmu kategorijas, kas parādās lielākajā daļā literatūras, ir demokrātiskais un autoritārais un totalitārais.</p>
                     </div>
                     <div id="rezimi" class="rounded-5 p-3 fons m-1">
                      <h2 class="text-center">Režīmi</h3>
-                     <p > Kopā ir 3 režīmi, demokrātiskais, autoritārais un totalitārais. </p>
-                       <p> Latvija ir demokrātiska valsts, to garantē Latvijas Satversme. Pirmais pants nosaka, ka Latvija ir demokrātiska republika, 2.pants, ka vara pieder Latvijas tautai. Cilvēktiesību jautājumi aplūkoti Satversmes 8.nodaļā. Latvijā nav likuma, kas nosaka vispārējus iedzīvotāju pienākumus pret valsti, tiek uzskatīts, ka ikviena cilvēka pienākums ir ievērot likumus. Likumos ir norādīti atsevišķu sociālo un profesionālo grupu, arī amatpersonu pienākumi.</p>
-                        <p> Autoritārisms ir politiskā sistēma, kurai raksturīga varas koncentrācija viena vadoņa rokās. Tai ir raksturīga antidemokrātiska valsts pārvaldes sistēma, kas izveidota, lai nodrošinātu iedzīvotāju bezierunu pakļaušanos vadonim un valsts varai. Vara tiek koncentrēta diktatora rokās, kurš kontrolē visas varas iestādes. Savu varu pār sabiedrību vadonis uztur ar karaspēka, drošības dienestu un paklausīga birokrātiskā aparāta palīdzību. Dažkārt autoritāras varas pretinieki tiek vajāti vai pat fiziski iznīcināti. Autoritārā valstī var notikt vēlēšanas, tomēr tās nav demokrātiskas. Uz galveno valsts amatu parasti kandidē pats diktators, lai viņa vara izskatītos likumīga. Latvijā autoritārisms bija pēc 1934.gada 15.maija apvērsuma, kad varu savās rokās sagrāba Kārlis Ulmanis ar uzticamām aizsargu vienībām. Autoritārisms Latvijā pastāvēja līdz Padomju okupācijai 1940.gada jūnijā.</p>
-                        <p class="text-center"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Karlis_Ulmanis.jpg" alt="KārliS Ulmanis" style="width: 300px; height: 350px;"></p>
-                        <p> Totalitārisms ir politiskā sistēma, kurā valsti pārvalda bez sabiedrības līdzdalības, lēmumi totalitārismā tiek pieņemti bez saskaņošanas ar sabiedrības vairākumu; nozīmīgākās sociālās, ekonomiskās un politiskās darbības totalitārā režīmā kontrolē valsts. Tas ir diktatūras veids, kurā vara ierobežo cilvēku visās jomās. Diktatūras apstākļos vara pieder nelielam cilvēku lokam vai pat vienam cilvēkam.</p>
+                      <p> Kopā ir 3 režīmi, demokrātiskais, autoritārais un totalitārais. </p>
+                      <p> Latvija ir demokrātiska valsts, to garantē Latvijas Satversme. Pirmais pants nosaka, ka Latvija ir demokrātiska republika, 2.pants, ka vara pieder Latvijas tautai. Cilvēktiesību jautājumi aplūkoti Satversmes 8.nodaļā. Latvijā nav likuma, kas nosaka vispārējus iedzīvotāju pienākumus pret valsti, tiek uzskatīts, ka ikviena cilvēka pienākums ir ievērot likumus. Likumos ir norādīti atsevišķu sociālo un profesionālo grupu, arī amatpersonu pienākumi.</p>
+                      <p> Autoritārisms ir politiskā sistēma, kurai raksturīga varas koncentrācija viena vadoņa rokās. Tai ir raksturīga antidemokrātiska valsts pārvaldes sistēma, kas izveidota, lai nodrošinātu iedzīvotāju bezierunu pakļaušanos vadonim un valsts varai. Vara tiek koncentrēta diktatora rokās, kurš kontrolē visas varas iestādes. Savu varu pār sabiedrību vadonis uztur ar karaspēka, drošības dienestu un paklausīga birokrātiskā aparāta palīdzību. Dažkārt autoritāras varas pretinieki tiek vajāti vai pat fiziski iznīcināti. Autoritārā valstī var notikt vēlēšanas, tomēr tās nav demokrātiskas. Uz galveno valsts amatu parasti kandidē pats diktators, lai viņa vara izskatītos likumīga. Latvijā autoritārisms bija pēc 1934.gada 15.maija apvērsuma, kad varu savās rokās sagrāba Kārlis Ulmanis ar uzticamām aizsargu vienībām. Autoritārisms Latvijā pastāvēja līdz Padomju okupācijai 1940.gada jūnijā.</p>
+                      <p class="text-center"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Karlis_Ulmanis.jpg" alt="KārliS Ulmanis" style="width: 300px; height: 350px;"></p>
+                      <p> Totalitārisms ir politiskā sistēma, kurā valsti pārvalda bez sabiedrības līdzdalības, lēmumi totalitārismā tiek pieņemti bez saskaņošanas ar sabiedrības vairākumu; nozīmīgākās sociālās, ekonomiskās un politiskās darbības totalitārā režīmā kontrolē valsts. Tas ir diktatūras veids, kurā vara ierobežo cilvēku visās jomās. Diktatūras apstākļos vara pieder nelielam cilvēku lokam vai pat vienam cilvēkam.</p>
                     </div>
                     <div id="varassadalijums" class="rounded-5 p-4 fons m-1">
-                        <h2 class="p-2">Varas sadalījums</h4>
-                     <p><b>Demokrātija</b> dalas 3 varās- likumdevējvara, izpildvara un tiesu vara. <hr> <b>Autoritārismā</b> vien centrāla varas struktūra kontrolē lielu daļu varas, vai/iespējams atsevišķos reģionos ir ierobežota vara. <hr><b>Totalitārismā</b> absolūta un visaptveroša varas kontrole, valsts kontrolē visu.</p>
+                     <h2 class="p-2">Varas sadalījums</h4>
+                      <p><b>Demokrātija</b> dalas 3 varās- likumdevējvara, izpildvara un tiesu vara. <hr> <b>Autoritārismā</b> vien centrāla varas struktūra kontrolē lielu daļu varas, vai/iespējams atsevišķos reģionos ir ierobežota vara. <hr><b>Totalitārismā</b> absolūta un visaptveroša varas kontrole, valsts kontrolē visu.</p>
                     </div>
                     <div id="politiska" class="rounded-5 p-4 fons m-1">
                      <h2 class="p-2">Politiskā vara</h2>
-                     <p><b>Demokrātijā</b> tiek piešķirta tautas izvēlei, balsojot par pārstāvjiem vai politikas lēmumiem. Politiskā vara pieder tautai. <hr> <b>Autoritārismā</b> politiskā vara balstās uz vienas personas vai partijas varu, kurai ir plašas pilnvaras lēmumu pieņemšanai. <hr><b>Totalitārismā</b> valsts kontrolē visus politiskos aspektus un regulē</p>
+                      <p><b>Demokrātijā</b> tiek piešķirta tautas izvēlei, balsojot par pārstāvjiem vai politikas lēmumiem. Politiskā vara pieder tautai. <hr> <b>Autoritārismā</b> politiskā vara balstās uz vienas personas vai partijas varu, kurai ir plašas pilnvaras lēmumu pieņemšanai. <hr><b>Totalitārismā</b> valsts kontrolē visus politiskos aspektus un regulē</p>
                     </div>
                     <div id="veidss" class="rounded-5 p-4 fons m-1">
                      <h2 class="p-2">Varas iegūšanas veids</h2>
-                     <p><b>Demokrātija</b>- (Vēlēšanu ceļā) Iegūst varu, ievērojot vēlētāju gribu caur brīvām vēlēšanām un politisko konkurenci. <hr> 
-                        <b>Autoritārisms</b>-Varu iegūst caur valsts apvērsumu. Bieži vien varas iegūšana notiek arī caur kontrolētu vēlēšanu procesu. <hr>
-                        <b>Totalitārisms</b>-Varu gūst militārā apvērsumā- izmantojot represijas, manipulāciju un ierobežojot pilsoņu brīvības un tiesības.
-                     </p>
+                      <p><b>Demokrātija</b>- (Vēlēšanu ceļā) Iegūst varu, ievērojot vēlētāju gribu caur brīvām vēlēšanām un politisko konkurenci. <hr> 
+                      <b>Autoritārisms</b>-Varu iegūst caur valsts apvērsumu. Bieži vien varas iegūšana notiek arī caur kontrolētu vēlēšanu procesu. <hr>
+                      <b>Totalitārisms</b>-Varu gūst militārā apvērsumā- izmantojot represijas, manipulāciju un ierobežojot pilsoņu brīvības un tiesības.</p>
                     </div>
                     <div id="velesanas" class="rounded-5 p-4 fons m-1">
-                        <h2 class="rounded-5 p-2">Kādas ir vēlēšanas? (Vēlēšanu sitēma)</h2>
-                        <p><b>Demokrātija</b>- vēlēšanas ir brīvas. Tās ir atklātas vēlēšanas, kur pilsoņi balso par savām izvēlētajām partijām vai kandidātiem. Bieži tiek izmantota proporcionālā vēlēšanu sistēma vai vairākuma vēlēšanu sistēma.<hr> 
-                           <b>Autoritārismā</b> ir tikai viena partija. Vēlēšanas ir ierobežotas vai kontrolētas, lai nodrošinātu esošās varas turpināšanos vai dominanci.                           <hr>
-                           <b>Totalitārisms</b>-vēlēšanu nav, jo ir viens vadošais vadonis. Tās var notikt, bet tās ir kā politiska fikcija.
-                        </p>
-                       </div>
-                       <div id="atbildiba" class="rounded-5 p-4 fons m-1">
-                        <h2 class="rounded-5 p-2">Varas institūciju atbildība</h2>
-                        <p><b>Demokrātija</b>- Varas iestādes ir atbildīgas iedzīvotājiem un tiek uzraudzītas, lai nodrošinātu demokrātijas principu ievērošanu.<hr> 
-                           <b>Autoritārisms</b>-Varas iestādes nav tik pārredzamas un neatkarīgas, un tās nav tieši atbildīgas iedzīvotājiem. Atbildīgas tiekai vadoņa un institūcijas priekšā.<hr>
-                           <b>Totalitārisms</b>-Varas iestādes ir pilnīgi kontrolētas un nav atbildīgas sabiedrībai, bet gan tikai vadītājam.
-                        </p>
-                       </div>
-                       <div id="veids2" class="rounded-5 p-4 fons m-1">
-                        <h2 class="rounded-5 p-1">Politisko lēmumu pieņemšanas veids</h2>
-                        <p><b>Demokrātijā</b> notiek caur publisku diskusiju, debates un balsošanu, kur iedzīvotājiem ir iespēja ietekmēt politiskos lēmumus, balsojot par saviem pārstāvjiem vai par konkrētiem jautājumiem.<hr> 
-                           <b>Autoritārisms</b>-Lēmumu pieņem centrālā vara, un iedzīvotājiem var būt ierobežota vai nekāda iespēja piedalīties politiskajā procesā. To sauc par cenzūru.<hr>
-                           <b>Totalitārisms</b>-Notiek centrālajā līmenī, (teikšana tajā ir tikai un vienīgi vadītājam/ diktatoram) pilnīgi neatkarīgi no sabiedrības viedokļa vai vēlmēm.
-                       </div>
-                       <div id="attiecibas" class="rounded-5 p-4 fons m-1">
-                        <h2 class="rounded-5 p-2">Attiecības starp varu un sabiedrību</h2>
-                        <p><b>Demokrātijā</b>varas attiecības balstās uz pilsoņu iesaistīšanu un pārredzamību. Varas institūcijas atbild sabiedrībai un cenšas darboties saskaņā ar tās interesēm.<hr> 
-                           <b>Autoritārisms</b>-Varas attiecības ir vairāk centrētas uz autoritāro valdību, kas ir attālināta no sabiedrības vēlmēm un interesēm.<hr>
-                           <b>Totalitārās</b>valdības cenšas kontrolēt un ietekmēt gandrīz visu sabiedrību, atņemot indivīdiem brīvību un personīgo izvēli.
-                       </div>
-                       <div id="info" class="rounded-5 p-4 fons m-1">
-                        <h2 class="rounded-5 p-2">Informācijas pieejamība</h2>
-                        <p><b>Demokrātija</b>-Plaša informācijas pieejamība ir būtiska demokrātijai, lai pilsoņi varētu pieņemt informētus lēmumus un uzraudzīt valdību <hr> 
-                           <b>Autoritārisms</b>-Informācijas pieejamība var būt ierobežota vai kontrolēta ar lielu cenzūru, lai saglabātu esošo varu un vadītu sabiedrību atbilstoši valdības interesēm.<hr>
-                           <b>Totalitārisms</b>-Informācijas kontrole ir stingra un kontrolēta, lai nodrošinātu totalitārā režīma pastāvēšanu, ierobežojot vai filtrējot informāciju atbilstoši valdības vajadzībām.
-                       </div>
-                       <div id="kults" class="rounded-5 p-4 fons m-1">
-                        <h2 class="rounded-5 p-2">Vadonības kults</h2>
-                        <p><b>Demokrātija</b>-Vadonības kulta attīstība parasti ir mazāka, jo demokrātiskās sabiedrības vairāk koncentrējas uz kolektīvo lēmumu pieņemšanu. Tādejādi sakot tās nav.<hr> 
-                           <b>Autoritārisma</b>- režīmi var attīstīt vadonības kultu, lai stiprinātu vadītāju autoritāti un varu, izcelot viņu kā valsts simbolu.<hr>
-                           <b>Totalitārisma</b>- režīmi bieži izveido vadonības kultu, kur viens vadītājs vai partija tiek uzskatīta par neapstrīdamu autoritāti un simbolu, kura apkārtējai sabiedrībai ir jāciena un jāpavada.
-                       </div>
-                       <div id="terors" class="rounded-5 p-4 fons m-1">
-                        <h2 class="p-2">Terors</h2>
-                        <p><b>Demokrātija</b>-Pretojas, likumdošana <hr> 
-                           <b>Autoritārisms</b>-Nepastāv<hr>
-                           <b>Totalitārisms</b>-Ideoloģiskais terors, ziņošana par citiem
-                       </div>
-                       <div id="puses" class="rounded-5 p-4 fons m-1">
-                        
-                        <button  type="button" class="btn btn-danger" class="rounded-5 p-3" onclick="stipras()">Sistēmu stiprās puses</button>
-                        <button  type="button" class="btn btn-danger" class="rounded-5 p-3" onclick="vajas()">Sistēmu vājās puses</button>
-                        <br>
-                        <div id="stipras" class="d-none">
+                     <h2 class="rounded-5 p-2">Kādas ir vēlēšanas? (Vēlēšanu sitēma)</h2>
+                      <p><b>Demokrātija</b>- vēlēšanas ir brīvas. Tās ir atklātas vēlēšanas, kur pilsoņi balso par savām izvēlētajām partijām vai kandidātiem. Bieži tiek izmantota proporcionālā vēlēšanu sistēma vai vairākuma vēlēšanu sistēma.<hr> 
+                      <b>Autoritārismā</b> ir tikai viena partija. Vēlēšanas ir ierobežotas vai kontrolētas, lai nodrošinātu esošās varas turpināšanos vai dominanci.                           <hr>
+                      <b>Totalitārisms</b>-vēlēšanu nav, jo ir viens vadošais vadonis. Tās var notikt, bet tās ir kā politiska fikcija.</p>
+                    </div>
+                    <div id="atbildiba" class="rounded-5 p-4 fons m-1">
+                     <h2 class="rounded-5 p-2">Varas institūciju atbildība</h2>
+                      <p><b>Demokrātija</b>- Varas iestādes ir atbildīgas iedzīvotājiem un tiek uzraudzītas, lai nodrošinātu demokrātijas principu ievērošanu.<hr> 
+                      <b>Autoritārisms</b>-Varas iestādes nav tik pārredzamas un neatkarīgas, un tās nav tieši atbildīgas iedzīvotājiem. Atbildīgas tiekai vadoņa un institūcijas priekšā.<hr>
+                      <b>Totalitārisms</b>-Varas iestādes ir pilnīgi kontrolētas un nav atbildīgas sabiedrībai, bet gan tikai vadītājam.</p>
+                    </div>
+                    <div id="veids2" class="rounded-5 p-4 fons m-1">
+                     <h2 class="rounded-5 p-1">Politisko lēmumu pieņemšanas veids</h2>
+                      <p><b>Demokrātijā</b> notiek caur publisku diskusiju, debates un balsošanu, kur iedzīvotājiem ir iespēja ietekmēt politiskos lēmumus, balsojot par saviem pārstāvjiem vai par konkrētiem jautājumiem.<hr> 
+                      <b>Autoritārisms</b>-Lēmumu pieņem centrālā vara, un iedzīvotājiem var būt ierobežota vai nekāda iespēja piedalīties politiskajā procesā. To sauc par cenzūru.<hr>
+                      <b>Totalitārisms</b>-Notiek centrālajā līmenī, (teikšana tajā ir tikai un vienīgi vadītājam/ diktatoram) pilnīgi neatkarīgi no sabiedrības viedokļa vai vēlmēm.
+                    </div>
+                    <div id="attiecibas" class="rounded-5 p-4 fons m-1">
+                     <h2 class="rounded-5 p-2">Attiecības starp varu un sabiedrību</h2>
+                      <p><b>Demokrātijā</b>varas attiecības balstās uz pilsoņu iesaistīšanu un pārredzamību. Varas institūcijas atbild sabiedrībai un cenšas darboties saskaņā ar tās interesēm.<hr> 
+                      <b>Autoritārisms</b>-Varas attiecības ir vairāk centrētas uz autoritāro valdību, kas ir attālināta no sabiedrības vēlmēm un interesēm.<hr>
+                      <b>Totalitārās</b>valdības cenšas kontrolēt un ietekmēt gandrīz visu sabiedrību, atņemot indivīdiem brīvību un personīgo izvēli.
+                    </div>
+                    <div id="info" class="rounded-5 p-4 fons m-1">
+                     <h2 class="rounded-5 p-2">Informācijas pieejamība</h2>
+                      <p><b>Demokrātija</b>-Plaša informācijas pieejamība ir būtiska demokrātijai, lai pilsoņi varētu pieņemt informētus lēmumus un uzraudzīt valdību <hr> 
+                      <b>Autoritārisms</b>-Informācijas pieejamība var būt ierobežota vai kontrolēta ar lielu cenzūru, lai saglabātu esošo varu un vadītu sabiedrību atbilstoši valdības interesēm.<hr>
+                      <b>Totalitārisms</b>-Informācijas kontrole ir stingra un kontrolēta, lai nodrošinātu totalitārā režīma pastāvēšanu, ierobežojot vai filtrējot informāciju atbilstoši valdības vajadzībām.
+                    </div>
+                    <div id="kults" class="rounded-5 p-4 fons m-1">
+                     <h2 class="rounded-5 p-2">Vadonības kults</h2>
+                      <p><b>Demokrātija</b>-Vadonības kulta attīstība parasti ir mazāka, jo demokrātiskās sabiedrības vairāk koncentrējas uz kolektīvo lēmumu pieņemšanu. Tādejādi sakot tās nav.<hr> 
+                      <b>Autoritārisma</b>- režīmi var attīstīt vadonības kultu, lai stiprinātu vadītāju autoritāti un varu, izcelot viņu kā valsts simbolu.<hr>
+                      <b>Totalitārisma</b>- režīmi bieži izveido vadonības kultu, kur viens vadītājs vai partija tiek uzskatīta par neapstrīdamu autoritāti un simbolu, kura apkārtējai sabiedrībai ir jāciena un jāpavada.
+                    </div>
+                    <div id="terors" class="rounded-5 p-4 fons m-1">
+                     <h2 class="p-2">Terors</h2>
+                      <p><b>Demokrātija</b>-Pretojas, likumdošana <hr> 
+                      <b>Autoritārisms</b>-Nepastāv<hr>
+                      <b>Totalitārisms</b>-Ideoloģiskais terors, ziņošana par citiem
+                    </div>
+                    <div id="puses" class="rounded-5 p-4 fons m-1">                     
+                     <button  type="button" class="btn btn-danger" class="rounded-5 p-3" onclick="stipras()">Sistēmu stiprās puses</button>
+                     <button  type="button" class="btn btn-danger" class="rounded-5 p-3" onclick="vajas()">Sistēmu vājās puses</button>
+                     <br>
+                     <div id="stipras" class="d-none">
                         <h2 class="p-2">Sistēmu stiprās puses</h2>
                         <p><b>Demokrātija</b>-iedzīvotāju līdzdalība, paredzemība un atbildība, cilvēktiesību aizsardzība, plašs brīvību spektrs, brīvas vēlēšanas, varas nodalīšana. <hr> 
-                           <b>Autoritārisms</b>-straujāka/ ātrāka lēmumu pieņemšana, stabilitāte un kārtība, ekonomiskā izaugsme.<hr>
-                           <b>Totalitārisms</b>-centralizēta varas kontrole, spēcīga vadības autoritāte, pilnīga politiskā kontrole, augsta mobilizācija.
-                        </p>
+                        <b>Autoritārisms</b>-straujāka/ ātrāka lēmumu pieņemšana, stabilitāte un kārtība, ekonomiskā izaugsme.<hr>
+                        <b>Totalitārisms</b>-centralizēta varas kontrole, spēcīga vadības autoritāte, pilnīga politiskā kontrole, augsta mobilizācija.</p>
                         </div>
-                        <div id="vajas" class="d-none">
+                     <div id="vajas" class="d-none">
                         <h2 class=" p-2">Sistēmu vājās puses</h2>
                         <p><b>Demokrātija</b>-lēns lēmumumu pieņemšanas laiks, balsu nevienlīdzības ietekme, mazāks efektivitātes līmenis, birokrātiskais aparāts.<hr> 
-                           <b>Autoritārisms</b>-ierobežota brīvība un iespējas, pilnvaru ļaunprātīga izmantošana, nespēja pielāgoties mainīgajai sabiedrībai vai varai, ierēdņu patvara<hr>
-                           <b>Totalitārisms</b>-sistēmas nestabilitāte, pilnīga brīvības zaudēšana, represijas, brīvības un cilvēktiesību pārkāpumi, sabiedrības neapmierinātība un rezistence, plašs/ liels spiegu loks,ideoloģija tiek uzspiesta jau agrā vecumā, pastav fizisks terors (kas var pat iznīcināt nāciju, tautību, valsti, u.t.t.).
-                            </p>
-                        </div>
-                        
-                        </div>
-                        
-                   </div>
-                 
-            </div>
-          
-              </div>
-             
-
-          </div>  
+                        <b>Autoritārisms</b>-ierobežota brīvība un iespējas, pilnvaru ļaunprātīga izmantošana, nespēja pielāgoties mainīgajai sabiedrībai vai varai, ierēdņu patvara<hr>
+                        <b>Totalitārisms</b>-sistēmas nestabilitāte, pilnīga brīvības zaudēšana, represijas, brīvības un cilvēktiesību pārkāpumi, sabiedrības neapmierinātība un rezistence, plašs/ liels spiegu loks,ideoloģija tiek uzspiesta jau agrā vecumā, pastav fizisks terors (kas var pat iznīcināt nāciju, tautību, valsti, u.t.t.).
+                        </p>
+                      </div>                        
+                    </div>                       
+                   </div>                 
+            </div>        
+         </div>            
+        </div>  
       </div>
     </body>
 </html>
