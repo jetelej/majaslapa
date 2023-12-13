@@ -41,7 +41,7 @@
         -ms-overflow-style: none; 
         scrollbar-width: none;  
         }
-    a {
+    a  {
         color: black;
         text-decoration: none;
     }
@@ -65,7 +65,7 @@ ul {
         }
 
         ul li a {
-            color: srgb(221, 210, 210);
+            color: rgb(0, 0, 0);
             text-decoration: none;
             padding: 8px 15px;
             border-radius: 5px;
@@ -77,15 +77,20 @@ ul {
         }
 
         ul li.active a {
-            background-color: #dd1d1d; 
+            background-color: #c42b2b; 
         }
        
-      
+      .apaksa{
+        position: fixed;
+        bottom: 5px;
+        background-color: #c42b2b
+        
+      }
        </style>
 <style>
     @import url('https://fonts.cdnfonts.com/css/grenda');
 </style>
-s
+
 
 
     </head>
@@ -107,12 +112,14 @@ s
                      <li class="navbar-li"><a href="#veids2" class="action-button">Politisko lēmumu pieņemšanas veids</a></li>
                      <li class="navbar-li"><a href="#attiecibas" class="action-button">Attiecības starp varu un sabiedrību</a></li>
                      <li class="navbar-li"><a href="#info" class="action-button">Informācijas pieejamība</a></li>
-                     <li class="navbar-li"><a href="#kults" class="action-button">adonības kults</a></li>
+                     <li class="navbar-li"><a href="#kults" class="action-button">Vadonības kults</a></li>
                      <li class="navbar-li"><a href="#terors" class="action-button">Terors</a></li>
                     <li class="navbar-li"> <a href="#puses" class="action-button">Sistēmu stiprās un vājās puses</a></li>
-                    <li class="navbar-li"><a href="#saite" class="action-button">Saite uz skolas mājaslapu</a></li>
+                    
                 
                      </ul>
+                     <a id="saite" class="apaksa rounded-5 p-3 m-9" href="http://www.rag.lv/">Uz skolas mājaslapu</a>
+
                   </div>
                   <div class="col-9 overflow-auto h-100">
                     <div id="kasIr" class="rounded-5 p-3 fons m-1">
@@ -207,7 +214,6 @@ s
                         </div>
                         
                         </div>
-                        <a id="saite" class="rounded-5 p-3 m-9" href="http://www.rag.lv/">Uz skolas mājaslapu</a>
                         
                    </div>
                  
